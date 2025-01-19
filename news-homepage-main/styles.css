@@ -57,6 +57,17 @@ body {
     background-color: var(--soft-red);
     font-weight: 800;
     letter-spacing: .4rem;
+    cursor: pointer;
+    color: black;
+    transition: 200ms all ease-in-out;
+}
+
+.hero-button:hover {
+    background-color: black;
+    font-weight: 800;
+    letter-spacing: .4rem;
+    cursor: pointer;
+    color: white;
 }
 
 .news-feed {
@@ -66,6 +77,12 @@ body {
 .news-feed h3 {
     color: white;
     font-weight: 800;
+    transition: 150ms all ease-in-out;
+}
+
+.news-feed h3:hover {
+    color: var(--soft-orange);
+    cursor: pointer;
 }
 
 .news-feed p {
@@ -98,7 +115,14 @@ body {
     color: black;
     font-weight: 800;
     font-size: 1.2em;
+    transition: 150ms all ease-in-out;
 }
+
+.number-cards h3:hover {
+    color: var(--soft-red);
+    cursor: pointer;
+}
+
 
 .number-cards p {
     color: var(--greyish-dark-blue);
