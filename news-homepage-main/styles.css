@@ -1,0 +1,113 @@
+:root {
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+    --off-white: hsl(36, 100%, 99%);
+    --greyish-blue: hsl(233, 8%, 79%);
+    --greyish-blue-dark: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('woff2');
+  }
+
+* {
+    font-family: Inter;
+}
+
+body {
+    font-size: 15px;
+    background-color: var(--off-white);
+}
+
+.no-li-styles {
+    list-style: none;
+}
+
+.no-li-styles a {
+    color: black;
+    text-decoration: none;
+}
+
+.no-anchor-styles {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-items ul li {
+    margin-left: 25px;
+}
+
+.hero-article-heading h1 {
+    font-size: 4.2em;
+    font-weight: 800;
+    line-height: 1 !important;
+}
+
+
+.hero-info {
+    font-size: 1.2em;
+    color: var(--greyish-dark-blue);
+}
+
+
+.hero-button {
+    background-color: var(--soft-red);
+    font-weight: 800;
+    letter-spacing: .4rem;
+}
+
+.news-feed {
+    background-color: var(--very-dark-blue);
+}
+
+.news-feed h3 {
+    color: white;
+    font-weight: 800;
+}
+
+.news-feed p {
+    color: var(--greyish-blue);
+    font-size: 1.05em;
+}
+
+.news-new {
+    color: var(--soft-orange);
+    font-weight: 700;
+    font-size: 3.2em;
+}
+
+.news-item {
+    border-bottom: 1px solid var(--off-white);
+}
+
+.news-item:last-child {
+    border-bottom: none;
+    padding-bottom: none !important;
+}
+
+
+.number-cards h2 {
+    color: var(--soft-red);
+    font-weight: 800;
+}
+
+.number-cards h3 {
+    color: black;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.number-cards p {
+    color: var(--greyish-dark-blue);
+    font-size: 1.1em;
+}
+
+@media (max-width: 385px) {
+    .number-cards p {
+        color: var(--greyish-dark-blue);
+        font-size: 1em;
+    }    
+}
